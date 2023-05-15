@@ -2,7 +2,8 @@
   "name": "vscode-search-files",
   "displayName": "vscode-search-files",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.78.0"
   },
