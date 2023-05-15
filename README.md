@@ -2,7 +2,22 @@
 
 Use VSCode's quickOpen to access files immediately.
 
-## Ruby usage
+* [Source Code on GitHub](https://github.com/ykhirao/vscode-search-files)
+* [Visual Studio | Marketplace](https://marketplace.visualstudio.com/items?itemName=ykhirao.vscode-search-files&ssr=false#overview)
+
+## Common Usage
+
+usage in Mac
+
+* `Select the area` you wish to search
+* `CMD + SHIFT + P` || `CMD + P` (Open QuickOpen) and Input `> Search Ruby Module`,
+* Input `Search Ruby Module`
+* Press `Enter` key
+
+![ezgif-1-398dfba47d](https://github.com/ykhirao/vscode-search-files/assets/15008377/3171db17-c7cc-4c57-8d02-60d19faee5c5)
+
+
+## Ruby Usage
 
 ### API::V1::Users.new
 
