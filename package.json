@@ -9,6 +9,11 @@
   "categories": [
     "Other"
   ],
+  "publisher": "ykhirao",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ykhirao/vscode-search-files"
+  },
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
@@ -37,7 +42,9 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
-    "test": "node ./out/test/runTest.js"
+    "test": "node ./out/test/runTest.js",
+    "login": "vsce login ykhirao",
+    "publish": "vsce publish"
   },
   "dependencies": {
     "change-case": "^4.1.2",
@@ -51,9 +58,11 @@
     "@typescript-eslint/eslint-plugin": "^5.59.1",
     "@typescript-eslint/parser": "^5.59.1",
     "@vscode/test-electron": "^2.3.0",
+    "dotenv": "^16.0.3",
     "eslint": "^8.39.0",
     "glob": "^8.1.0",
     "mocha": "^10.2.0",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "vsce": "^2.15.0"
   }
 }
