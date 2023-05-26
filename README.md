@@ -33,7 +33,7 @@ usage in Mac
 
 ### SAMPLE Code
 
-@see [Samples/Ruby](./samples/Ruby/)
+@see [Samples/Ruby](./samples/ruby/)
 
 > Search Ruby Module
 
